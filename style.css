@@ -1,4 +1,4 @@
-body {
+body { 
   font-family: sans-serif;
   background-color: #f0f0f0;
   color: #333;
@@ -11,8 +11,15 @@ header {
   color: white;
   padding: 2rem;
   text-align: center;
+  margin-bottom: 2rem; /* Añade un margen debajo del encabezado */
 }
 
 section, footer {
   padding: 2rem;
+  margin-bottom: 2rem; /* Añade un margen abajo para separar las secciones */
+}
+
+footer {
+  background-color: #ddd; /* Cambié el color de fondo del pie de página para diferenciarlo */
+  color: #333; /* Asegurando que el color del texto en el pie de página sea legible */
 }
